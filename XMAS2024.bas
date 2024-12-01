@@ -1,0 +1,65 @@
+1000 PRINT CHR$(147)
+1010 PRINT "xmas 2024"
+1020 PRINT
+1030 PRINT "laura and fabio wish you"
+1040 PRINT "happy winter holidays"
+1050 PRINT
+1060 PRINT "close encounters of the third kind"
+1070 PRINT "by john williams"
+
+1080 REM **** PLAYER ****
+
+1090 S = 54272
+1100 FOR T = 0 TO 24 : POKE S + T, 0 : NEXT
+1110 POKE S + 24, 15
+1120 TM = 100
+1130 WF = 16
+1140 A = 2 ^ (1 / 12)
+1150 POKE S + 5,  3 * 16 + 7
+1160 POKE S + 6, 10 * 16 + 9
+1170 READ A$, LT
+1180 IF A$ = "fine" THEN END
+1190 NO$ = LEFT$(A$, 1)
+1200 SH$ = MID$(A$, 2, 1)
+1210 OCT = VAL(MID$(A$, 3, 1))
+1220 OCT = VAL(MID$(A$, 3, 1))
+1230 N = 2 * (ASC(NO$) - 65) - 1
+1240 DR = INT(TM / LT)
+1250 IF NO$ = "p" THEN GOTO 1410
+1260 IF NO$ = "f" THEN N = N - 1 : GOTO 1300
+1270 IF NO$ = "g" THEN N = N - 1 : GOTO 1300
+1280 IF NO$ = "a" THEN N = 12 : GOTO 1300
+1290 IF NO$ = "b" THEN N = 14
+1300 IF SH$ = "#" THEN N = N + 1
+1310 FS = INT((466 * A ^ N) * 2 ^ OCT)
+1320 FH = INT(FS / 256)
+1330 FL = FS - 256 * FH
+1340 POKE S, FL
+1350 POKE S + 1, FH
+1360 DR = INT(TM * LT)
+1370 POKE S + 4, WF + 1
+1380 FOR T = 1 TO DR : NEXT
+1390 POKE S + 4, WF
+1400 GOTO 1170
+1410 FOR T = 1 TO DR : NEXT
+1420 GOTO 1170
+
+1430 REM **** SONG DATA ****
+
+1440 REM
+1450 REM Duration
+1460 REM
+1470 REM  1     16
+1480 REM  1/2.  12
+1490 REM  1/2    8
+1500 REM  1/4.   6
+1510 REM  1/4    4
+1520 REM  1/8.   3
+1530 REM  1/8    2
+1540 REM
+
+1550 DATA "a#30",  4, "c 40",  4, "g#30",  4, "g#20",  4
+1560 DATA "d#31",  8
+
+1570 DATA "fine",  0
+
