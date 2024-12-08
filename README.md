@@ -1,6 +1,6 @@
 # THEC64 Player XMAS2024
 
-A music player for the Commodore 64 including the five-note phrase from "Close Encounters of the Third Kind" by John Williams.
+A **polyphonic** music player for the Commodore 64 including "Sleigh Ride" by Leroy Anderson.
 
 ## Introduction
 
