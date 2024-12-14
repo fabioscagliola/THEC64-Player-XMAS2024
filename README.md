@@ -1,6 +1,6 @@
 # THEC64 Player XMAS2024
 
-A **polyphonic** music player for the Commodore 64 including "Sleigh Ride" by Leroy Anderson.
+A polyphonic music player for the Commodore 64 including "Have Yourself a Merry Little Christmas" by Hugh Martin and Ralph Blane.
 
 ## Introduction
 
