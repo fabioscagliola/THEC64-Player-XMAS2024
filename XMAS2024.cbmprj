@@ -4,7 +4,7 @@
 <!-- Project Target : C64 -->
 <Project>
     <Target>2</Target>
-    <Executable>xmas2023.prg</Executable>
+    <Executable>xmas2024.prg</Executable>
     <StartAddress>2049</StartAddress>
     <FilesGlobal>False</FilesGlobal>
     <BatchMode>False</BatchMode>
@@ -15,7 +15,7 @@
     <Comments />
     <Author />
     <Email />
-    <AutoLaunchName>xmas2023.prg</AutoLaunchName>
+    <AutoLaunchName>xmas2024.prg</AutoLaunchName>
     <NoSingleFileBuild>False</NoSingleFileBuild>
     <CreatedWithVersion>CBM prg Studio 4.0.0</CreatedWithVersion>
     <HasGitRepo>True</HasGitRepo>
@@ -63,7 +63,7 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>False</Topmost>
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>

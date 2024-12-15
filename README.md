@@ -10,3 +10,9 @@ Since 2019 I have been wishing happy winter holidays to my family and friends by
 
 I developed the music player using [CBM prg Studio](https://www.ajordison.co.uk) and tested it using [C64 Forever](https://www.c64forever.com).
 
+## Video
+
+You can watch the video on my YouTube channel.
+
+[!["Have Yourself a Merry Little Christmas" by Hugh Martin and Ralph Blane on the Commodore 64](XMAS2023.png)](https://youtu.be/)
+
