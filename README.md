@@ -14,5 +14,5 @@ I developed the music player using [CBM prg Studio](https://www.ajordison.co.uk)
 
 You can watch the video on my YouTube channel.
 
-[!["Have Yourself a Merry Little Christmas" by Hugh Martin and Ralph Blane on the Commodore 64](XMAS2024.png)](https://youtu.be/)
+[!["Have Yourself a Merry Little Christmas" by Hugh Martin and Ralph Blane on the Commodore 64](XMAS2024.png)](https://youtu.be/5ijay1ILQmA)
 
